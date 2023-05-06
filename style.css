@@ -1,0 +1,11 @@
+.d-flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+.titulo-input{
+    min-width: 300px;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 465px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario HTML</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>
+            <center>Formulario Empresa Login</center>
+        </h1> <br>
+        <form action="/my-handling-form-page" method="get">
+            <div class="d-flex">
+                <label class="titulo-input" for="name">Nombre Usuario:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input" for="name">Contraseña:</label>
+                <input type="text" id="contraseña" name="contraseña">
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input" for="name">Ciudad de Empleado:</label>
+                <input type="text" id="ciudad" name="ciudad">
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input" for="name">Servidor web:</label>
+                <input type="text" id="servidor" name="servidor">
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input">Servidor Web:</label>
+                <select name="Elige un navegador" id="">
+                    <option value="elige un navegador">—Elige un navegador—</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                </select>
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input">Por favor indique Rol: </label>
+                <div>
+                    <input type="radio" name="rol" value="administrador">
+                    <label for="administrador">Administrador</label> <br>
+                    <input type="radio" name="rol" value="ingeniero">
+                    <label for="ingeniero">Ingeniero</label> <br>
+                    <input type="radio" name="rol" value="gerente">
+                    <label for="gerente">Gerente</label> <br>
+                    <input type="radio" name="rol" value="invitado">
+                    <label for="invitado">Invitado</label>
+                </div>
+            </div>
+            <div class="d-flex">
+                <label class="titulo-input">Inicio de sesión único a lo siguiente: </label>
+                    <div>
+                        <input type="checkbox" id="correo" name="correo">
+                        <label for="correo"> Correo </label> <br>
+                        <input type="checkbox" id="nomina" name="nomina">
+                        <label for="nomina"> Nomina </label> <br>
+                        <input type="checkbox" id="autoservicio" name="autoservicio">
+                        <label for="autoservicio"> Autoservicio </label> <br>
+                    </div>
+            </div> <br>
+            <div>
+                <center>
+                    <input type="submit" value="Ingresar"/>
+                    <input type="submit" value="Reestablecer"/>
+                </center>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
